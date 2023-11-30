@@ -9,28 +9,57 @@ body {
     background: linear-gradient(to left,#c0d884,#54f5b7);
 }
 
-body > test {
+.test-button-container {
     display: grid;
     justify-content: center;
     align-content: center;
     min-height: 100vh;
 }
 
-body > test > button {
+/*Here comes the classes oh boy*/
+
+.icon {
+    max-width:100%;
+    max-height:100%;
+}
+
+.test-button {
+    cursor: pointer;
     min-height: 10vh;
     min-width: 10vh;
-    cursor: pointer;
-    font-size: medium;
     border: 1px solid white;
     outline: none;
+    font-family: monocraft; 
+    font-size: medium;
+    color: #808080;
     background-color: rgba(255, 255, 255, .3);
 }
 
-body > test > button {
-    color: black;
-    font-family: monocraft; 
-}
-
-body > test > button:hover {
+.test-button:hover {
     background-color: rgba(255, 255, 255, .9);  
 }
+
+.toolbar {
+    background-color: #1b1c1e   ;
+    min-height: 7vh;
+    min-width: auto;
+}
+
+.sidemenu-button-container {
+    display: grid;
+    justify-content: left;
+    align-items: center;
+    min-height: 10vh;
+    min-width: 10vh;
+
+}
+
+.sidemenu-button {
+    background-color: rgba(255,255,255,0);
+    position: fixed;
+    align-self: center;
+    width: 7vh;
+    height: 7vh;
+    top: 1.5vh;
+    left: 1.5vh;
+    background-color: #1b1c1e;
