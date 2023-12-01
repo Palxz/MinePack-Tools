@@ -1,4 +1,4 @@
-![logo](assets/logo.png)
+![logo](assets/img/logo.png)
 Hi! Welcome to the repository of  **MinePack**. Here you will find the inner works of all the tools you will ever need, being it for *~~DataPacks~~*, *~~ResourcePacks~~* or even ~~*KubeJS*~~. Not only that but if you got any suggestion or bug report you are able to make them here and I'll (*probably*) see them and work on them.
 
 # Lorem
