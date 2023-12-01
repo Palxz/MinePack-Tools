@@ -3,3 +3,6 @@ function printText () {
     alert ("Wow, This works!!! Awesome");
     console.log ("Damn, even here too!?")
 }
+function goTo () {
+    
+}
