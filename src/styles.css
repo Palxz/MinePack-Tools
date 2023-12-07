@@ -1,6 +1,6 @@
 @font-face {
     font-family:"monocraft" ;
-    src: url(assets/Monocraft.woff) format('woff');
+    src: url(./assets/Monocraft.woff) format('woff');
 }
 
 :root{
